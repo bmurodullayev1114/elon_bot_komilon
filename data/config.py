@@ -1,3 +1,5 @@
+
+
 from environs import Env
 
 # environs kutubxonasidan foydalanish
@@ -6,8 +8,13 @@ env.read_env()
 
 # .env fayl ichidan quyidagilarni o'qiymiz
 BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
-CHANNELS = env.list("CHANNELS")
 ADMINS = env.list("ADMINS")  # adminlar ro'yxati
+CHANNELS = env.list("CHANNELS")
 IP = env.str("ip")  # Xosting ip manzili
+
+
+
+
+
 
 
